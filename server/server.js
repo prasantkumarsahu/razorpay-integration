@@ -12,8 +12,8 @@ app.use(
 app.use(express.json());
 
 const razorpay = new Razorpay({
-  key_id: "rzp_test_VyMJP8qAJK03UO",
-  key_secret: "0HrwHmJDZe5ukmt1xwKXWD4b",
+  key_id: "razorpay-key-id",
+  key_secret: "razorpay-key-secret",
 });
 
 app.post("/create-qr", async (req, res) => {
